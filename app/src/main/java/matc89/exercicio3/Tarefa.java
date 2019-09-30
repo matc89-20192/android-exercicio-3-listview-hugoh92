@@ -1,8 +1,12 @@
 package matc89.exercicio3;
 
+import java.util.List;
+
 public class Tarefa {
     private String descricao;
     private int prioridade;
+
+
 
     public Tarefa(String descricao, int prioridade) {
         this.descricao = descricao;
@@ -17,3 +21,4 @@ public class Tarefa {
         return prioridade;
     }
 }
+
